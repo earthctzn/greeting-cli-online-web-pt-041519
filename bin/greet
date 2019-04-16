@@ -3,6 +3,5 @@ require_relative "../lib/greeting.rb"
 
 puts "Hi! I'm HAL, what's your name?"
 name = n
-n.gets
-n.strip.chomp
+n.gets = n.strip.chomp
 greeting(name)
